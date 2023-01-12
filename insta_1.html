@@ -1,74 +1,100 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link href ="style.css" rel = "stylesheet">
-        </head>
-    <head></head>
-        <body>
+        <link href ="style.css" rel = "stylesheet"/>
+        <link href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" rel="stylesheet"/>
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div id = "top">
+            <img src = "https://th.bing.com/th/id/OIP.72S49bENY6EMqQr0n7eg_AHaHZ?w=182&h=181&c=7&r=0&o=5&dpr=1.5&pid=1.7" width = "50px"/>
+            <input type = "search" value = "검색"/>
             <div>
-                <img src = "https://th.bing.com/th/id/OIP.72S49bENY6EMqQr0n7eg_AHaHZ?w=182&h=181&c=7&r=0&o=5&dpr=1.5&pid=1.7" width = "50px"/>
-                <input/ type = "search" value = "검색"/>
+                <i class="fas fa-home"></i>
+                <i class="far fa-paper-plane"></i>
+                <i class="far fa-compass"></i>
+                <i class="far fa-heart"></i>
             </div>
-            <div id = "profile">
-                <img src="C:\Users\user\Pictures\Saved Pictures\5.jpg" width="50px"/>
-                <div>
-                <h2>mycat_is_rockstar</h2>
-                </div>
-            <div>
-                <button><p>프로필 편집</p></button>
-                </div>
-                </div>
-                <div>
-                <p>
-                 <strong>
-                 자택경비원<br/>
-                 </strong>
-                <p>
+        </div>
+        <div id = "profile">
+            <div id = "profile_pic">
+                <img class = "circle_pic"src="C:\Users\user\Pictures\Saved Pictures\5.jpg"/>
+            </div>
+        </div id = "profile_info">
+            <div id = "id">
+                <span>mycat_is_rockstar</span>
+                <i class  = "fas fa-cog"></i>
+            </div>
+            <button>프로필 편집</button>
+            </div>
+        </div>
+        <div>
+            <p>
+                <strong id = "userInfo">자택경비원</strong><br/>
+            </p>
+            <p id = "profileDetail">
                 <a href = "https://github.com/dldnfla/html.etc">
                     https://github.com/dldnfla/html.etc
                 </a>
-            <div>
-                <div class = "highlight">
-                    <div>
-                <img src="C:\Users\user\Pictures\09.jpg" width = "50px" />
+            </p>
+        <div>
+        <div id="highlight_area">
+            <div class = "highlight">
+                <div class = "highlight_pic">
+                    <img class = "circle_pic" src="C:\Users\user\Pictures\09.jpg"/>
                 </div>
                 <div>
                     🦊
                 </div>
+            </div>
+            <div class = "highlight">
+                <div class = "highlight_pic">
+                    <img class = "circle_pic" src="C:\Users\user\Pictures\05.jpg"/>
                 </div>
-                <div>
-                    <div class = "highlight">
-                        <div>
-                <img src="C:\Users\user\Pictures\05.jpg" width = "50px" />
-                        </div>
                 <div>
                     🐾
                 </div>
             </div>
-            </div>
-            <p>
+            <div></div>
+        </div>
+        <div id = "stat_bar">
+            <div class = "stat">
                 게시물<br/>
-                팔로워<br/>
-                팔로잉<br/>
-                17<br/>
-                219<br/>
-                208<br/>
-            <div>
-            <div>
-                <img src= "C:\Users\user\Pictures\01.jpeg" width = "32%"/>
-                <img src= "C:\Users\user\Pictures\02.png" width = "32%"/>
-                <img src= "C:\Users\user\Pictures\06.jpg" width = "32%"> 
-                <img src= "C:\Users\user\Pictures\07.jpg" width = "32%">
-                <img src= "C:\Users\user\Pictures\08.jpg" width = "32%">
-                <img src= "C:\Users\user\Pictures\09.jpg" width = "32%">
-                <img src= "C:\Users\user\Pictures\Saved Pictures\KakaoTalk_20221004_012413858.jpg" width = "32%">
-                <img src= "C:\Users\user\Pictures\10.JPG" width = "32%">
-                <img src= "C:\Users\user\Pictures\11.JPG" width = "32%">
+                17
             </div>
-        </p>
+            <div class = "stat">
+                팔로워<br/>
+                219
+            </div>
+            <div class = "stat"> 
+                팔로잉<br/>
+                208
+            </div>
+        </div>
+        <div id="sub_icons">
+            <div class="selected">
+                <i class="fas fa-border-all"></i>
+            </div>
+            <div><i class="fas fa-film"></i></div>
+            <div><i class="far fa-play-circle"></i></div>
+            <div><i class="far fa-bookmark"></i></div>
+            <div><i class="fas fa-user-tag"></i></div>
+        </div>
+        <div>
+            <div class = "thumnail_grid">
+                <img src= "C:\Users\user\Pictures\01.jpeg" class = "thumnail"/>
+                <img src= "C:\Users\user\Pictures\02.png" class = "thumnail/">
+                <img src= "C:\Users\user\Pictures\06.jpg" class = "thumnail"/> 
+            </div>
+            <div class = "thumnail_grid">
+                <img src= "C:\Users\user\Pictures\08.jpg" class = "thumnail"/>
+                <img src= "C:\Users\user\Pictures\09.jpg" class = "thumnail"/>
+            </div>
+            <div class = "thumnail_grid">
+                <img src= "C:\Users\user\Pictures\Saved Pictures\KakaoTalk_20221004_012413858.jpg" class = "thumbnail"/>
+               <img src= "C:\Users\user\Pictures\10.JPG" class = "thumnail"/>
+                <img src= "C:\Users\user\Pictures\11.JPG" class = "thumnail"/>
+            </div>
+        </div>
     <body>
-
-
-
-
 </html>
